@@ -1,2 +1,50 @@
 # zym-registration
 zym registration using html,css
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chavan fitness</title>
+    <link rel="stylesheet" href="css\index.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/logoc.png" alt="">
+            <div>Chavan Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call to us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="contener">
+        <h1>join the best gym now</h1>
+        <form action="">
+            <div class="fgroup">
+                <input type="text" placeholder="enter your name">
+
+                <input type="number" placeholder="enter your number">
+
+                <input type="email" placeholder="enter your email">
+
+            </div>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
